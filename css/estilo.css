@@ -1,0 +1,353 @@
+/* Tava pensando em usar um gradiante dessa cor : color: #fb0102
+Se no futuro eu conseguir tá ai*/
+/* Formatação geral */
+body{
+    font-family: 'Roboto Slab', serif;
+}
+h1, h2, h3{
+	margin: 0;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+}
+p{
+    font-family: 'Raleway', sans-serif;
+}
+.cont{
+	width: 100%;
+}
+
+/* Cabeçalho ou barra de navegação */
+.logo img{
+	border-radius: 48%;
+	align-items: center;
+	width: 140%
+}	
+
+nav{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #fb0102;
+	padding: 4px;
+}
+nav ul{
+	list-style: none;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 95%;
+}
+nav ul li{
+	text-align: center;
+    width: 75%;
+    font-size:1.5em;
+    padding: 2%;
+}
+nav ul li a{
+	display: inline-block;
+    padding: 10px 0;
+    width: 100%;
+    text-decoration: none;
+    color: #ffffff;
+}
+/* HEADER */
+header{
+	background-image:url(../img/background.png);
+	background-size:cover; 
+	background-position: center;
+    background-repeat: no-repeat;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 125px
+
+}
+header p{
+	margin-bottom: 2em;
+	margin-top: 1em;
+    font-size: 1.7
+}
+.boto{
+	color: #ffff;
+    text-decoration: none;
+    padding: 10px 30px;
+    background-color: #fb0102;
+    font-size: 0.85em;
+    border-radius: 5% 
+}
+
+/*SOBRE*/
+#sobre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #fb0102;
+    color: #ffffff    
+}
+#sobre h2{
+	margin-top: 0px;
+	font-size: 3em;
+	font-family: 'Amatic SC', cursive;
+}
+.foto img{
+	width: 40%
+}
+.foto{
+	float: left;
+	width: 50%
+}
+.textoeu{
+	float: right;
+	width: 50%
+}
+
+/* HEADER */
+header{
+
+	height: 60vh;
+	justify-content: center;
+
+}
+
+/* SOBRE */
+#sobre{
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
+	height: 90vh;
+	justify-content: center;
+	min-height: 80vh; 
+}
+#sobre h2{
+	text-align: center;
+	width: 100%
+}
+#sobre div{
+	flex-grow:1;
+	flex-basis: 300px;
+	padding: 0 10px;  
+}
+#especial{
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: relative;
+	margin: 0 auto;
+}
+#especial div{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	margin-top: 30px;
+}
+#especial p{
+	line-height: 1.5;
+	margin: 2vh;
+	font-size: 1.1em;
+}
+#especial img{
+	margin: 10px 0;
+}
+#especial h2{
+	font-size: 3em;
+	font-family: 'Amatic SC', cursive;
+}
+
+
+
+#comp{
+display: flex;
+flex-direction: column;
+align-items: center;
+padding-top: 20px;
+
+background-color: #F8F8FF;
+}
+#comp h2{
+	margin-bottom: 20px;
+	margin-top: 10px;
+	font-size: 2.5em;
+	text-align: center;
+	font-family: 'Amatic SC', cursive;
+}
+#comp h3, p{
+	margin-bottom: 20px;
+	margin-top: 10px;
+	font-size: 1em;
+	text-align: center;
+}
+#comp a{
+	text-decoration: none;
+}
+#comp img{
+	width: 100%;
+	margin-bottom: 0;
+}
+#comp .compe p{
+	margin-top: 10;
+	font-family: 'Raleway', sans-serif;
+	padding-right: 15px;
+	padding-left: 15px;
+	line-height: 1.5;
+}
+
+.trab img:hover{
+	-ms-transform: rotate(5deg);
+	-webkit-transform: rotate(5deg);
+	-moz-transform: rotate(5deg);
+	-o-transform: rotate(5deg);
+	transform: rotate(5deg);
+
+}
+
+
+
+#hobbie{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #F8F8FF;  
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
+	height: 90vh;
+	justify-content: center;
+	min-height: 80vh; 
+}
+#hobbie h2{
+	text-align: center;
+	width: 100%;
+}
+#hobbie div{
+	flex-grow:1;
+	flex-basis: 300px;
+	padding: 0 10px;  
+}
+
+#hobbie h2{
+	margin-bottom: 20px;
+	margin-top: 10px;
+	font-size: 2.5em;
+	text-align: center;
+	font-family: 'Amatic SC', cursive;
+}
+.hobbie{
+	width: 100%;
+	align-items: center;
+	text-align: center;
+}
+.hobbie h3{
+	font-size: 1em;
+	margin-top: 14px; 
+	margin-bottom: 14px;
+	font-family: 'Raleway', sans-serif;
+}
+#contato{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	background-color: #fb0102;
+	width: 100%;
+}
+#contato h2{
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	font-size: 2.5em;
+	text-align: center;
+	font-family: 'Amatic SC', cursive;
+	color: #ffffff
+}
+#contato a{
+	text-decoration: none;
+	text-align: center;
+}
+footer{
+	text-align: center;
+	width: 100%;
+	background-color: #fb0102;
+	color: #ffffff;
+	padding-top: 90px;
+	padding-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 768px){
+    /*Cabeçalho*/
+    nav{	
+	    flex-direction: row;
+	    justify-content: space-around;
+    }
+    nav ul{
+	    flex-direction: row;
+	    width: 80%;
+	    justify-content: space-around;
+    }
+/*Deixar especialdiades em linha */
+	#especial{
+		flex-direction: row;
+		flex-wrap: wrap;
+		align-items: flex-start;
+		max-width: 1000px;
+		margin: 0 auto;
+	}
+	#especial h2{
+		text-align: center;
+		width: 100%
+	}
+	#especial div{
+		flex-grow: 1;
+		flex-basis: 150px;
+		padding: 0 10px; 
+		font-family: 'Raleway', sans-serif;
+		padding-left: 15px;
+		padding-right: 15px;
+		line-height: 1.5;
+	}
+	#comp{
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
+	#comp h2,h3 {
+		width: 100%;
+		text-align: center;
+	}
+	#comp .compe{
+		width: 33.33333333333%;
+		text-align: center;
+	}
+	#contato{
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		max-width: 100%;
+		margin: 0 auto;
+		text-align: center;
+		max-height: 40vh; 
+		width: 100%;
+	}
+	#contato h2, p{
+		width: 100%;
+		text-align: center;
+		margin-bottom: 20px;
+	}
+}
